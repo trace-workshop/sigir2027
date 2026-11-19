@@ -1,0 +1,6 @@
+{% assign e = site.edition %}
+{% if e.status == "proposal" %}
+<div class="trace-note">TRACE is a workshop proposed for {{ e.conference }}. Details on this site are tentative until workshop decisions are announced{% if e.proposal_decision != "TBD" %} on {{ e.proposal_decision }}{% endif %}.</div>
+{% elsif e.status == "past" %}
+<div class="trace-note">This page archives TRACE at {{ e.conference }}. See the <a href="https://trace-workshop.github.io/">TRACE homepage</a> for the latest edition.</div>
+{% endif %}

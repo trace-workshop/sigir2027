@@ -1,0 +1,18 @@
+<div
+  class="col-xs-6 col-sm-4 col-lg-2 col-xl-2 text-center profile-card"
+  id="{{ include.p[0] }}"
+>
+  <div class="profile-photo">
+    <img
+      src="{{ site.baseurl }}/img/{{ include.p[1].img | default: "placeholder.png" }}"
+      alt="{{ include.p[1].name }}"
+    />
+  </div>
+  <div class="profile-info">
+    {% if include.p[1].url and include.p[1].url != "" %}<a href="{{ include.p[1].url }}">{{ include.p[1].name }}</a>{% else %}<span class="profile-name">{{ include.p[1].name }}</span>{% endif %}
+    {% if include.p[1].status %}
+    <div class="profile-status"><em>{{ include.p[1].status }}</em></div>
+    {% endif %}
+    <div class="profile-affiliation">{{ include.p[1].affiliation }}</div>
+  </div>
+</div>

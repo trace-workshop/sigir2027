@@ -1,0 +1,110 @@
+# =============================================================================
+# >>> EDITION SETTINGS: everything that changes from one year to the next.
+# scripts/new_edition.py rewrites this block when it creates the next edition.
+# =============================================================================
+
+# Each edition is its own repository "sigirYYYY", served at <url>/sigirYYYY.
+# Currently hosted on the eliashossain001 account; to move to a "trace-workshop"
+# organization later, transfer the repo and change only "url" and "url-pretty".
+url: "https://eliashossain001.github.io"
+baseurl: "/sigir2027"
+url-pretty: "eliashossain001.github.io/sigir2027"
+
+title: TRACE @ SIGIR 2027
+description: "The First Workshop on Trustworthy Retrieval Agents under Cost and Evidence Constraints"
+
+edition:
+  number: 1
+  ordinal: "First"
+  year: 2027
+  conference: "ACM SIGIR 2027"
+  conference_url: "https://sigir2027.org/"
+  location: "San Jose, CA, USA"
+  date: "Friday, July 23, 2027"
+  format: "half-day"
+  timezone_label: "Pacific Time (PT)"
+  # proposal | accepted | cfp-open | past  (controls banners on the site)
+  status: "proposal"
+  proposal_decision: "February 15, 2027"
+  # Leave empty until they exist; the pages show "to be announced".
+  submission_url: ""
+  contact_email: ""
+  # Number of "To be invited" boxes shown after the organizers. Lower it as people join.
+  open_organizer_slots: 2
+  # Number of "To be invited" boxes shown after the speakers and panelists.
+  open_speaker_slots: 2
+  dates:
+    - label: "Call for papers opens"
+      date: "March 1, 2027"
+    - label: "Paper submission deadline"
+      date: "April 17, 2027 (AoE)"
+    - label: "Author notification"
+      date: "May 17, 2027 (AoE)"
+    - label: "Final program and keynote titles"
+      date: "June 15, 2027"
+    - label: "Failure traces"
+      date: "accepted on a rolling basis until the workshop"
+
+defaults:
+  - scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+  - scope:
+      path: "*.md" # top-level workshop pages
+    values:
+      title: TRACE
+      subtitle: "The First Workshop on Trustworthy Retrieval Agents under Cost and Evidence Constraints"
+      use-site-title: true
+
+# =============================================================================
+# <<< END OF EDITION SETTINGS. Everything below normally stays the same.
+# =============================================================================
+
+navbar-links:
+  Call for Papers: "cfp"
+  Speakers & Panelists: "speakers"
+  Organizers: "organizers"
+  Schedule: "schedule"
+  Papers: "papers"
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#2A6F97"
+hover-col: "#1D4E6B"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+author:
+  name: Organizers of the TRACE Workshop
+
+# Footer icons; keys are defined in _data/SocialNetworks.yml, e.g.
+#   social-network-links:
+#     email: "your-address@example.com"
+social-network-links: {}
+
+title-separator: "-"
+
+timezone: "America/Los_Angeles"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - MAINTAINING.md
+  - scripts
+  - vendor
+
+plugins:
+  - jekyll-sitemap

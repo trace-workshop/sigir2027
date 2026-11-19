@@ -1,0 +1,45 @@
+# Organizers, shown in this order on the home page and the Organizers page.
+# img: a square-ish photo in img/ (e.g. "ehossain.jpg"); leave empty for the placeholder.
+# url: personal page; leave empty to show the name without a link.
+
+ehossain:
+  name: "Elias Hossain"
+  url: "https://eliashossain001.github.io/"
+  affiliation: "UCF"
+  img: "ehossain.jpg"
+  bio: "Elias Hossain is a PhD candidate at the University of Central Florida. His research builds inference-time methods that make deployed LLMs, LLM judges, and agents reliable without retraining, spanning uncertainty and calibration, LLM evaluation, and agent safety. His work appears at NeurIPS (Main Track), EACL (Main Conference), and AACL-IJCNLP, and in IEEE Transactions on Systems, Man, and Cybernetics: Systems, Briefings in Bioinformatics, and Scientific Reports (Nature Portfolio)."
+
+sdipta:
+  name: "Shubhashis Roy Dipta"
+  url: "https://roydipta.com/"
+  affiliation: "UMBC"
+  img: "sdipta.jpg"
+  bio: "Shubhashis Roy Dipta is a final-year PhD candidate in computer science at the University of Maryland, Baltimore County, working on LLM post-training with reinforcement learning, agents, reasoning, and evaluation. His work appears at NeurIPS, ACL, EMNLP, AACL-IJCNLP, and *SEM, including main-conference papers at EMNLP, ACL, and AACL-IJCNLP 2026. He has interned as an Applied Scientist at Amazon Alexa AI and serves as an area chair for ACL Rolling Review."
+
+mrahman:
+  name: "Mafizur Rahman"
+  url: "https://mafizurrahman.github.io/"
+  affiliation: "Prairie View A&M"
+  img: "mrahman.jpg"
+  bio: "Mafizur Rahman is a PhD student in Electrical Engineering at Prairie View A&M University, working on LLM interpretability, multi-agent language models, and hardware-aware AI. Mafizur's work appears at ACL (Main Conference), UAI, IJCAI, WACV, and IEEE HOST, and in IEEE Transactions on Emerging Topics in Computational Intelligence. Mafizur received the university's Outstanding Graduate Student Award and was recognized as a NeurIPS 2026 Top Reviewer."
+
+mweiss:
+  name: "Martin Weiss"
+  url: "https://lacuna.tiptreesystems.com/author/martin-weiss"
+  affiliation: "Mila"
+  img: "mweiss.jpg"
+  bio: "Martin Weiss is a postdoctoral researcher at Mila and the co-founder of Tiptree Systems, which builds research tools for machine learning problem formulation. Martin's research covers AI systems for scientific discovery, multi-agent modeling, and LLM agents for literature synthesis and research-direction generation. Martin's work appears at NeurIPS, ICLR, COLM, and AAMAS, and Martin served as Tech Chair of ICCV 2021."
+
+skar:
+  name: "Sudipta Kar"
+  url: "https://sudiptakar.info/"
+  affiliation: "Oracle"
+  img: "skar.jpg"
+  bio: "Sudipta Kar is a Principal Applied Scientist at Oracle Health AI, building AI systems for clinical and healthcare applications. Sudipta was previously an Applied and Senior Applied Scientist at Amazon Alexa AI and holds a PhD in computer science from the University of Houston. Sudipta's research covers multilingual and low-resource NLP, conversational AI, and language modeling, including the MultiCoNER shared-task series and the LinCE benchmark."
+
+dchoi:
+  name: "Dasol Choi"
+  url: "https://dasol-choi.github.io/"
+  affiliation: "AIM Intelligence"
+  img: "dchoi.jpg"
+  bio: "Dasol Choi is a Principal Researcher at AIM Intelligence whose research spans safety evaluation, alignment, bias mitigation, and adversarial robustness of language and multimodal models. Her work appears at NeurIPS, ACL, ECCV, and EACL. She led the Judgement Day AI Red Team Arena with the Korea AI Safety Institute and co-organized the red-teaming workshop of the Seoul Forum on AI Safety and Security 2026."

@@ -1,0 +1,6 @@
+# News items, newest first. "text" is Markdown. To link to a page on this site,
+# give its name in "link" (e.g. "cfp") and the words to show in "link_text";
+# the base URL is added automatically. External links can go straight in "text".
+- text: "The call for papers will open on March 1, 2027."
+  link: "cfp"
+  link_text: "Call for papers"

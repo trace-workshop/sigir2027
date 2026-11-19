@@ -1,0 +1,46 @@
+---
+---
+
+# Call for Papers
+
+Retrieval systems are becoming agents: they plan queries, call tools, read and discard evidence, and decide when an answer is sufficiently supported to be returned. Each of these decisions consumes budget (tokens, tool calls, latency), and each is a point at which reliability can be lost. TRACE invites work on **how reliable retrieval agents are at the budgets at which they are actually deployed, and how the IR community should measure it**.
+
+{% include status_banner.html %}
+
+### Topics
+
+We welcome contributions on topics including, but not limited to:
+
+- **Reliability at deployed budgets**: calibration, abstention, and answer quality as a function of token, tool-call, and latency budgets.
+- **Evidence and abstention**: reasoning over incomplete, conflicting, or adversarial evidence; deciding when to answer and when to abstain.
+- **Agent-specific failures**: prompt injection through retrieved content, corpus poisoning, reward hacking, and overconfident synthesis.
+- **Allocating effort**: stopping rules, adaptive retrieval, and cost–quality–risk trade-offs for search and reasoning.
+- **Measurement**: test collections, metrics, and judging protocols, including LLM-based judges, for measuring calibration and abstention as a function of budget, reproducibly.
+
+Much work on RAG, agents, and LLM evaluation can be connected to this theme. Because the connection is often tenuous, submissions will be evaluated in part on how clearly they articulate it, as well as on technical soundness and potential to generate discussion.
+
+### Important Dates
+
+{% include key_dates.md %}
+
+### Tracks
+
+- **Research papers** (4–8 pages): new work.
+- **Short and position papers** (2–4 pages): including extended abstracts of recently published work.
+- **Failure traces**: a short description of an input, the agent's retrieval and reasoning trace, and the erroneous outcome. Traces are accepted on a rolling basis without formal review and are used as material for the Failure Clinic.
+
+### Submission Requirements
+
+Papers should use the [ACM two-column conference format](https://www.acm.org/publications/proceedings-template) (`\documentclass[sigconf,anonymous,review]{acmart}`). Page limits exclude references. Reviewing is **double-blind**, so submissions must be anonymized. Each paper receives at least two reviews.
+
+The workshop is **non-archival**, so that authors may later publish extended versions at archival venues. Preprints on arXiv and other non-archival venues are welcome.
+
+Every accepted paper will be presented as a five-minute lightning talk and as a poster. Accepted papers, lightning-talk slides, and, optionally, poster thumbnails will be posted on the [Papers]({{ site.baseurl }}/papers) page. Presenters are expected to attend in person; authors who cannot travel because of funding or visa constraints may have their poster presented by a co-author or an organizer.
+
+Submission site: {% if site.edition.submission_url != "" %}**[{{ site.edition.submission_url }}]({{ site.edition.submission_url }})**{% else %}**to be announced**{% endif %}.
+
+### Program Committee
+
+Reviewing is handled by a program committee drawn from academia and industry. Organizers do not serve on the program committee, and organizers will not handle any submission with which they have a conflict.
+
+{% include contact.md %}

@@ -1,0 +1,5 @@
+# Fill after notifications. Each entry: title, authors, url (optional), award (optional).
+# - title: "Paper title"
+#   authors: "A. Author, B. Author"
+#   url: "https://openreview.net/forum?id=..."
+[]
