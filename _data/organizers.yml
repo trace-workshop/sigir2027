@@ -7,7 +7,7 @@ ehossain:
   url: "https://eliashossain001.github.io/"
   affiliation: "UCF"
   img: "ehossain.jpg"
-  bio: "Elias Hossain is a PhD candidate at the University of Central Florida. His research builds inference-time methods that make deployed LLMs, LLM judges, and agents reliable without retraining, spanning uncertainty and calibration, LLM evaluation, and agent safety. His work appears at NeurIPS (Main Track), EACL (Main Conference), and AACL-IJCNLP, and in IEEE Transactions on Systems, Man, and Cybernetics: Systems, Briefings in Bioinformatics, and Scientific Reports (Nature Portfolio)."
+  bio: "Elias Hossain is a PhD candidate at the University of Central Florida. His research develops inference-time methods that make deployed LLMs, LLM judges, and agents reliable without retraining, with a focus on uncertainty and calibration, LLM evaluation, and agent safety. His work has been published at NeurIPS (Main Track), EACL (Main Conference), and AACL-IJCNLP. He also serves as a reviewer for ICLR and NeurIPS."
 
 sdipta:
   name: "Shubhashis Roy Dipta"
