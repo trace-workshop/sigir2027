@@ -3,7 +3,7 @@
 
 # Speakers & Panelists
 
-Further keynote speakers and panelists will be announced. For the order of sessions, see the [Schedule]({{ site.baseurl }}/schedule).
+Speakers are listed in alphabetical order by last name. For the actual order and sessions, please see the [Schedule]({{ site.baseurl }}/schedule) tab.
 
 {% include profile_list.html people=site.data.speakers %}
 
