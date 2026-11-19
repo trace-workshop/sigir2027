@@ -2,7 +2,7 @@
 
 Website for **TRACE: The First Workshop on Trustworthy Retrieval Agents under Cost and Evidence Constraints**, ACM SIGIR 2027, San Jose, CA.
 
-Live at: https://eliashossain001.github.io/sigir2027 (repository `eliashossain001/sigir2027`)
+Live at: https://trace-workshop.github.io/sigir2027 (repository `trace-workshop/sigir2027`)
 
 Built with Jekyll on the [beautiful-jekyll](https://deanattali.com/beautiful-jekyll/) theme (MIT, see `LICENSE`), adapted from the MATH-AI 2026 workshop site layout. Yearly upkeep is described in **[MAINTAINING.md](MAINTAINING.md)**.
 
