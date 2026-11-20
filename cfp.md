@@ -41,6 +41,6 @@ Submission site: {% if site.edition.submission_url != "" %}**[{{ site.edition.su
 
 ### Program Committee
 
-Reviewing is handled by a program committee drawn from academia and industry. Organizers do not serve on the program committee, and organizers will not handle any submission with which they have a conflict.
+Reviewing is handled by a [program committee]({{ site.baseurl }}/organizers#program-committee) drawn from academia and industry. Organizers do not serve on the program committee, and organizers will not handle any submission with which they have a conflict.
 
 {% include contact.md %}
